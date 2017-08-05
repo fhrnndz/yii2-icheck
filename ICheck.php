@@ -1,19 +1,19 @@
 <?php
 
-namespace yiichina\ckeditor;
+namespace yiichina\icheck;
 
 use yii\Helpers\Html;
 
 /**
  * This is just an example.
  */
-class CKEditor extends \yii\widgets\InputWidget
+class ICheck extends \yii\widgets\InputWidget
 {
     public function init()
     {
         parent::init();
         $view = $this->getView();
-        CKEditorAsset::register($view);
+        ICheckAsset::register($view);
 		$view->registerJs("CKEDITOR.replace(\"{$this->options['id']}\")");
     }
 
