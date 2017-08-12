@@ -17,13 +17,13 @@ use yii\web\AssetBundle;
  */
 class ICheckAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/ckeditor';
+    public $sourcePath = '@bower/icheck';
 
     public $js = [
-        'ckeditor.js',
+        'icheck.min.js',
     ];
 
-    public $depends = array(
-        'yii\bootstrap\BootstrapAsset'
-    );
+    public $depends = [
+        'yii\web\YiiAsset',
+    ];
 }
