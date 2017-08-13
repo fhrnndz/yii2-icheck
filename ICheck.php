@@ -47,6 +47,7 @@ class ICheck extends \yii\widgets\InputWidget
         $asset = ICheckAsset::register($view);
         $view->registerCssFile($asset->baseUrl . '/skins/' . $this->skin . '/' . ($this->color ? $this->color : $this->skin) . '.css');
         $color = $this->color ? "-{$this->color}" : null;
+        Html::addCssClass($this->options, ['widget' => 'icheck']);
         $this->icheckOptions = array_merge($this->icheckOptions, ['checkboxClass' => "icheckbox_{$this->skin}{$color}", 'radioClass' => "iradio_{$this->skin}{$color}"]);
         $icheckOptions = Json::encode($this->icheckOptions);
         $view->registerJs("$('#{$this->options['id']}').iCheck($icheckOptions)");
