@@ -43,3 +43,8 @@ use yiichina\icheck\ICheck;
 <?= ICheck::widget(['type' => ICheck::TYPE_RADIO_LIST, 'skin' => ICheck::SKIN_MIMIMAL, 'color' => ICheck::COLOR_GREEN, 'model' => $model, 'attribute' => $attribute, 'items' => $items]) ?>
 <?= ICheck::widget(['type' => ICheck::TYPE_CHECBOX_LIST, 'skin' => ICheck::SKIN_MIMIMAL, 'color' => ICheck::COLOR_GREEN, 'model' => $model, 'attribute' => $attribute, 'items' => $items]) ?>
 ```
+
+文档和 Demo
+----------
+
+http://extension.yiichina.com/icheck
