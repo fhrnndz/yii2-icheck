@@ -2,7 +2,7 @@
 
 namespace yiichina\icheck;
 
-use yii\bootstrap\Html;
+use yii\bootstrap4\Html;
 use yii\helpers\Json;
 
 /**
