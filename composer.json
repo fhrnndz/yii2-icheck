@@ -1,6 +1,6 @@
 {
-    "name": "yiichina/yii2-icheck",
-    "description": "Yii2 中使用 iCheck",
+    "name": "fhrnndz/yii2-icheck",
+    "description": "Yii2 iCheck",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","icheck"],
     "license": "BSD-3-Clause",
